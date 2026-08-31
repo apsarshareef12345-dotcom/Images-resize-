@@ -6,8 +6,9 @@ A simple image resizing tool for PNG, JPG and WebP files.
 
 - Upload an image and set any output width and height.
 - Use preset sizes for social media and advertising.
-- Choose whether to keep the full image, crop to fill, or stretch it.
-- Preview and download the final PNG, JPG, or WebP image.
+- Keeps the complete image proportional: no crop, stretch, AI edit, or filter.
+- Adds only transparent space when the new size has a different shape.
+- Preview and download the final PNG image.
 - Runs in the browser: no OpenAI API key, image upload, or account is needed.
 
 ## Run locally
