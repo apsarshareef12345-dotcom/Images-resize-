@@ -1,25 +1,20 @@
-# AI Image Resizer & Consistency Tool
+# Image Resizer
 
-This is a working web app that uses AI to generate matching background areas for new image sizes. It restores the uploaded original image on top of the AI result so the central image stays unchanged.
+A simple image resizing tool for PNG, JPG and WebP files.
 
-## Start the tool
+## What it does
 
-1. Install Node.js 20 or newer.
-2. In this folder, run `npm install`.
-3. Set your OpenAI API key as an environment variable named `OPENAI_API_KEY`.
-4. Run `npm start`.
-5. Open `http://localhost:3000`.
+- Upload an image and set any output width and height.
+- Use preset sizes for social media and advertising.
+- Choose whether to keep the full image, crop to fill, or stretch it.
+- Preview and download the final PNG, JPG, or WebP image.
+- Runs in the browser: no OpenAI API key, image upload, or account is needed.
 
-For Windows PowerShell:
-
-```powershell
-$env:OPENAI_API_KEY="your_api_key"
-npm start
-```
-
-For macOS or Linux:
+## Run locally
 
 ```bash
-export OPENAI_API_KEY="your_api_key"
+npm install
 npm start
 ```
+
+Open `http://localhost:3000`.
