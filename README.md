@@ -1,21 +1,21 @@
-# Image Resizer
+# AI Image Resizer & Background Expand Tool
 
-A simple image resizing tool for PNG, JPG and WebP files.
+A tool that expands a photo's background to a new size while protecting the original image.
 
 ## What it does
 
 - Upload an image and set any output width and height.
 - Use preset sizes for social media and advertising.
-- Keeps the complete image proportional: no crop, stretch, AI edit, or filter.
-- Adds only transparent space when the new size has a different shape.
+- Uses AI to fill only the new outer background area.
+- Places the original uploaded image back over the result to keep it unchanged.
 - Preview and download the final PNG image.
-- Runs in the browser: no OpenAI API key, image upload, or account is needed.
+- Requires an OpenAI API key set as `OPENAI_API_KEY` in your Vercel Environment Variables.
 
 ## Run locally
 
 ```bash
 npm install
-npm start
+npm run start
 ```
 
 Open `http://localhost:3000`.
